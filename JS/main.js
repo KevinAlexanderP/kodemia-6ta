@@ -90,3 +90,55 @@ var letra5 = palabra[4]
 var palabraCompleta = letra1 + letra2 + letra3 + letra4 + letra5
 
 console.log(palabraCompleta)
+
+
+
+// Input 
+
+var wordArray = ['p', 'e', 'r', 'r', 'o']
+
+// Output
+
+// 'perro'
+
+
+
+
+// Input 
+
+var wordArray = ['p', 'e', 'r', 'r', 'o']
+
+// Output
+
+// 'perro'
+
+function joinWord(wordArray) {
+
+    var word = ''
+
+    for (var index = 0; index < wordArray.length; index++) {
+
+        var letter = wordArray[index]
+
+        word += letter
+
+    }
+
+    return word
+
+}
+
+
+const PI = 3.1416
+
+function circleArea(radius) {
+    return PI * (radius ** 2)
+
+}
+
+circleArea(10)
+
+var circle = function(radius) {
+    return PI * (radius ** 2)
+
+}
